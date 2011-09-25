@@ -39,7 +39,7 @@ How to Upgrade from a previous version:
 
 = How do I change the sidebar widget and library formatting? =
 
-I have supplied default templates and custom templates that can be modified in order to suit your theme. Your theme's header, sidebar, footer code may need to integrated into `library.php` and `single.php` in order for formatting to appear properly. In addition, you may need to tweak the inline css in both files and `sidebar.php` in order to get the desired results. Basic integration instructions are provided in the administrative options panel. I am available for basic theme integration for a modest fee.
+I have supplied custom templates that can be modified in order to suit your theme. Your theme's header, sidebar, footer code may need to integrated into `library.php` and `single.php` in order for formatting to appear properly. In addition, you may need to tweak the inline css in both files and `sidebar.php` in order to get the desired results. Basic integration instructions are provided in the administrative options panel. I am available for basic theme integration for a modest fee.
 
 = How similar is this plugin to Now Reading Redux? =
 
@@ -55,8 +55,7 @@ http://www.affordable-techsupport.com/support/
 
 = Where can I make a donation to the developer of this plugin? =
 
-http://www.affordable-techsupport.com/support/
-At least 10% of donations will be given to the poor.
+At least 10% of donations will be given to the poor: http://www.affordable-techsupport.com/support/
 
 == Screenshots ==
 
