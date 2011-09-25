@@ -11,11 +11,11 @@ Displays books in the sidebar and library/book page with cover art fetched from 
 
 == Description ==
 
-My Reading Library is a very heavy modification of the [Now Reading Redux plugin by Ashod Nakashian] (http://blog.ashodnakashian.com/projects/now-reading-redux/ "Now Reading Redux") which is a resurrection of the [Now Reading Reloaded plugin by Ben Gunnink] (http://heliologue.com/ "Now Reading Reloaded") which is a fork of the [Now Reading plugin by Rob Miller](http://robm.me.uk/projects/plugins/wordpress/now-reading/ "Now Reading Plugin").
+My Reading Library is a very heavy modification of the [Now Reading Redux plugin by Ashod Nakashian](http://blog.ashodnakashian.com/projects/now-reading-redux/ "Now Reading Redux") which is a resurrection of the [Now Reading Reloaded plugin by Ben Gunnink](http://heliologue.com/ "Now Reading Reloaded") which is a fork of the [Now Reading plugin by Rob Miller](http://robm.me.uk/projects/plugins/wordpress/now-reading/ "Now Reading Plugin").
 
 It allows you to develop a library, show the book details, track your progress, rate the book, and link to a WP post of your book review. It displays the library within the sidebar and on the library/book page with cover art fetched from Amazon.
 
-The home of My Reading Library is [www.affordable-techsupport.com/support/] (http://www.affordable-techsupport.com/support/ "My Reading Library"). You may find updates (as well as within the WP Plugin Repository) and receive support there.
+The home of My Reading Library is [www.affordable-techsupport.com/support/](http://www.affordable-techsupport.com/support/ "My Reading Library"). You may find updates (as well as within the WP Plugin Repository) and receive support there.
 
 = Disclaimer =
 
@@ -25,7 +25,7 @@ Please backup your database before installing/upgrading. Thought I attempt to re
 
 1. Upload `my-reading-library` to the `.../wp-content/plugins/` directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
-1. Optionally, make any changes to the provided template files: `.../wp-content/plugins/my-reading-library/templates/default_templates/` or `.../wp-content/plugins/my-reading-library/templates/custom_templates/`
+1. Optionally, make any changes to the provided template files: `.../wp-content/plugins/my-reading-library/templates/custom_templates/`
 
 How to Upgrade from a previous version:
 
@@ -39,7 +39,7 @@ How to Upgrade from a previous version:
 
 = How do I change the sidebar widget and library formatting? =
 
-I have supplied default templates and custom templates that can be modified in order to suit your theme. Your theme's header, sidebar, footer code may need to integrated into library.php and single.php in order for formatting to appear properly. In addition, you may need to tweak the inline css in both files and sidebar.php in order to get the desired results. Basic integration instructions are provided in the administrative options panel. I am available for basic theme integration for a modest fee.
+I have supplied default templates and custom templates that can be modified in order to suit your theme. Your theme's header, sidebar, footer code may need to integrated into `library.php` and `single.php` in order for formatting to appear properly. In addition, you may need to tweak the inline css in both files and `sidebar.php` in order to get the desired results. Basic integration instructions are provided in the administrative options panel. I am available for basic theme integration for a modest fee.
 
 = How similar is this plugin to Now Reading Redux? =
 
@@ -55,7 +55,8 @@ http://www.affordable-techsupport.com/support/
 
 = Where can I make a donation to the developer of this plugin? =
 
-http://www.affordable-techsupport.com/support/ | At least 10% of donations will be given to the poor.
+http://www.affordable-techsupport.com/support/
+At least 10% of donations will be given to the poor.
 
 == Screenshots ==
 
@@ -79,7 +80,7 @@ http://www.affordable-techsupport.com/support/ | At least 10% of donations will 
 * Added logic to enable the Amazon book details to open in a new page while Custom books open with the website from both the sidebar widget and library page
 * Added ability to link to a WP Post Review from the both the sidebar widget and library page
 * Added separate image sizes (small, medium, large) for the sidebar widget and library page
-* Added a new png file for "no-image.png"
+* Added a new png file for `no-image.png`
 * Added formatting in the library, book pages, and sidebar
 * Added many descriptions and explanations in the MRL options page
 * Added many descriptions and explanations to the edit book page
@@ -90,15 +91,15 @@ http://www.affordable-techsupport.com/support/ | At least 10% of donations will 
 * Correctly implemented the use of user roles (rather than the deprecated user levels) throughout the plugin
 * Streamlined and modded code, removed unnecessary code and file, corrected logic, fixed errors, etc.
 * Added default and custom template files with the ability to specify which options to implement within the MRL options page (instructions included).
-* Added custom template files that can me safely modded to suit user themes in the "...my-reading-library/templates/custom_templates/" folder. See the MRL options page for implementation.
+* Added custom template files that can me safely modded to suit user themes in the `...my-reading-library/templates/custom_templates/` folder. See the MRL options page for implementation.
 * Added custom template files for the Weaver Theme (2 column layout). See the MRL options page for implementation.
 * Added custom template files for the Twenty Ten Theme. See the MRL options page for implementation.
 * Added custom template files for the Twenty Eleven Theme (sidebar template is slightly unstable). See the MRL options page for implementation.
-* Added various directory defines in "...my-reading-library/my-reading-library.php" in order to facilitate easier future directory adjustments
+* Added various directory defines in `...my-reading-library/my-reading-library.php` in order to facilitate easier future directory adjustments
 * Added the ability to uninstall the plugin AND database entries when the plugin is deleted from within the plugin manager
 * Added updated screenshots of all pages in the admin and public site
 * Combed through the code in order to make this plugin fully ready for internationalization
-* en_US.pot is in the following directory: ...my-reading-library/languages/
+* en_US.pot is in the following directory: `...my-reading-library/languages/`
 
 == Upgrade Notice ==
 
