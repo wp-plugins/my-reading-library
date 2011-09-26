@@ -15,7 +15,7 @@ My Reading Library is a very heavy modification of the [Now Reading Redux plugin
 
 It allows you to develop a library, show the book details, track your progress, rate the book, and link to a WP post of your book review. It displays the library within the sidebar and on the library/book page with cover art fetched from Amazon.
 
-The home of My Reading Library is [www.affordable-techsupport.com/support/](http://www.affordable-techsupport.com/support/ "My Reading Library"). You may find updates (as well as within the WP Plugin Repository) and receive support there.
+The home of the My Reading Library plugin is in this WP Repository; however, you may report bugs and receive support: [www.affordable-techsupport.com/support/](http://www.affordable-techsupport.com/support/ "My Reading Library")
 
 = Disclaimer =
 
@@ -106,13 +106,14 @@ None at this time.
 
 == Update Path ==
 
-* Pull book details from Amazon and set as props.
-* Add language, edition, total pages, category, and abridged props.
-* Use calendar UI for dates.
+* Pull total pages of book from Amazon and set as property on book edit page.
+* Use calendar UI for dates on the book edit page.
+* Set number of books displayed in each widget book category.
 
 == Known Bugs ==
 * In the book manager, the Title and Reader columns will not sort properly when the title is clicked
 * The integration with the Twenty Eleven WP Theme is inconsistent and buggy
+* Total books setting in options does not effect onhold books
 
 == Demo Site ==
 
